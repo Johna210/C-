@@ -1,0 +1,14 @@
+/home/johna/Desktop/stuff/C#/demo/bin/Debug/net8.0/demo
+/home/johna/Desktop/stuff/C#/demo/bin/Debug/net8.0/demo.deps.json
+/home/johna/Desktop/stuff/C#/demo/bin/Debug/net8.0/demo.runtimeconfig.json
+/home/johna/Desktop/stuff/C#/demo/bin/Debug/net8.0/demo.dll
+/home/johna/Desktop/stuff/C#/demo/bin/Debug/net8.0/demo.pdb
+/home/johna/Desktop/stuff/C#/demo/obj/Debug/net8.0/demo.GeneratedMSBuildEditorConfig.editorconfig
+/home/johna/Desktop/stuff/C#/demo/obj/Debug/net8.0/demo.AssemblyInfoInputs.cache
+/home/johna/Desktop/stuff/C#/demo/obj/Debug/net8.0/demo.AssemblyInfo.cs
+/home/johna/Desktop/stuff/C#/demo/obj/Debug/net8.0/demo.csproj.CoreCompileInputs.cache
+/home/johna/Desktop/stuff/C#/demo/obj/Debug/net8.0/demo.dll
+/home/johna/Desktop/stuff/C#/demo/obj/Debug/net8.0/refint/demo.dll
+/home/johna/Desktop/stuff/C#/demo/obj/Debug/net8.0/demo.pdb
+/home/johna/Desktop/stuff/C#/demo/obj/Debug/net8.0/demo.genruntimeconfig.cache
+/home/johna/Desktop/stuff/C#/demo/obj/Debug/net8.0/ref/demo.dll
