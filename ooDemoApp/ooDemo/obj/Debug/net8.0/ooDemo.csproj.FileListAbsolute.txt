@@ -1,0 +1,15 @@
+/home/johna/Desktop/stuff/C#/ooDemoApp/ooDemo/bin/Debug/net8.0/ooDemo
+/home/johna/Desktop/stuff/C#/ooDemoApp/ooDemo/bin/Debug/net8.0/ooDemo.deps.json
+/home/johna/Desktop/stuff/C#/ooDemoApp/ooDemo/bin/Debug/net8.0/ooDemo.runtimeconfig.json
+/home/johna/Desktop/stuff/C#/ooDemoApp/ooDemo/bin/Debug/net8.0/ooDemo.dll
+/home/johna/Desktop/stuff/C#/ooDemoApp/ooDemo/bin/Debug/net8.0/ooDemo.pdb
+/home/johna/Desktop/stuff/C#/ooDemoApp/ooDemo/obj/Debug/net8.0/ooDemo.GeneratedMSBuildEditorConfig.editorconfig
+/home/johna/Desktop/stuff/C#/ooDemoApp/ooDemo/obj/Debug/net8.0/ooDemo.AssemblyInfoInputs.cache
+/home/johna/Desktop/stuff/C#/ooDemoApp/ooDemo/obj/Debug/net8.0/ooDemo.AssemblyInfo.cs
+/home/johna/Desktop/stuff/C#/ooDemoApp/ooDemo/obj/Debug/net8.0/ooDemo.csproj.CoreCompileInputs.cache
+/home/johna/Desktop/stuff/C#/ooDemoApp/ooDemo/obj/Debug/net8.0/ooDemo.sourcelink.json
+/home/johna/Desktop/stuff/C#/ooDemoApp/ooDemo/obj/Debug/net8.0/ooDemo.dll
+/home/johna/Desktop/stuff/C#/ooDemoApp/ooDemo/obj/Debug/net8.0/refint/ooDemo.dll
+/home/johna/Desktop/stuff/C#/ooDemoApp/ooDemo/obj/Debug/net8.0/ooDemo.pdb
+/home/johna/Desktop/stuff/C#/ooDemoApp/ooDemo/obj/Debug/net8.0/ooDemo.genruntimeconfig.cache
+/home/johna/Desktop/stuff/C#/ooDemoApp/ooDemo/obj/Debug/net8.0/ref/ooDemo.dll

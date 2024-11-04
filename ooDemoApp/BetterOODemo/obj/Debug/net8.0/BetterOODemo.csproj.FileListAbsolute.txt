@@ -1,0 +1,15 @@
+/home/johna/Desktop/stuff/C#/ooDemoApp/BetterOODemo/bin/Debug/net8.0/BetterOODemo
+/home/johna/Desktop/stuff/C#/ooDemoApp/BetterOODemo/bin/Debug/net8.0/BetterOODemo.deps.json
+/home/johna/Desktop/stuff/C#/ooDemoApp/BetterOODemo/bin/Debug/net8.0/BetterOODemo.runtimeconfig.json
+/home/johna/Desktop/stuff/C#/ooDemoApp/BetterOODemo/bin/Debug/net8.0/BetterOODemo.dll
+/home/johna/Desktop/stuff/C#/ooDemoApp/BetterOODemo/bin/Debug/net8.0/BetterOODemo.pdb
+/home/johna/Desktop/stuff/C#/ooDemoApp/BetterOODemo/obj/Debug/net8.0/BetterOODemo.GeneratedMSBuildEditorConfig.editorconfig
+/home/johna/Desktop/stuff/C#/ooDemoApp/BetterOODemo/obj/Debug/net8.0/BetterOODemo.AssemblyInfoInputs.cache
+/home/johna/Desktop/stuff/C#/ooDemoApp/BetterOODemo/obj/Debug/net8.0/BetterOODemo.AssemblyInfo.cs
+/home/johna/Desktop/stuff/C#/ooDemoApp/BetterOODemo/obj/Debug/net8.0/BetterOODemo.csproj.CoreCompileInputs.cache
+/home/johna/Desktop/stuff/C#/ooDemoApp/BetterOODemo/obj/Debug/net8.0/BetterOODemo.sourcelink.json
+/home/johna/Desktop/stuff/C#/ooDemoApp/BetterOODemo/obj/Debug/net8.0/BetterOODemo.dll
+/home/johna/Desktop/stuff/C#/ooDemoApp/BetterOODemo/obj/Debug/net8.0/refint/BetterOODemo.dll
+/home/johna/Desktop/stuff/C#/ooDemoApp/BetterOODemo/obj/Debug/net8.0/BetterOODemo.pdb
+/home/johna/Desktop/stuff/C#/ooDemoApp/BetterOODemo/obj/Debug/net8.0/BetterOODemo.genruntimeconfig.cache
+/home/johna/Desktop/stuff/C#/ooDemoApp/BetterOODemo/obj/Debug/net8.0/ref/BetterOODemo.dll

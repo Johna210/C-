@@ -6,10 +6,10 @@ namespace Demo {
 
         public static int movieCount = 0;
 
-        public Movie(string mTitle, string mDirector, string mRating) {
-            title = mTitle;
-            director = mDirector;
-            Rating = mRating;
+        public Movie(string title, string director, string rating) {
+            this.title = title;
+            this.director = director;
+            this.Rating = rating;
             movieCount++;
         }
 

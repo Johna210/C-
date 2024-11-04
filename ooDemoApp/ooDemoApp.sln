@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ooDemo", "ooDemo\ooDemo.csproj", "{C37B4976-0115-4191-90C7-F28E473A71B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterOODemo", "BetterOODemo\BetterOODemo.csproj", "{D9D0E384-C4DE-4FF1-B928-B9FDC0F3C226}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C37B4976-0115-4191-90C7-F28E473A71B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C37B4976-0115-4191-90C7-F28E473A71B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C37B4976-0115-4191-90C7-F28E473A71B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C37B4976-0115-4191-90C7-F28E473A71B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9D0E384-C4DE-4FF1-B928-B9FDC0F3C226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9D0E384-C4DE-4FF1-B928-B9FDC0F3C226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9D0E384-C4DE-4FF1-B928-B9FDC0F3C226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9D0E384-C4DE-4FF1-B928-B9FDC0F3C226}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
