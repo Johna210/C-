@@ -3,7 +3,8 @@ namespace taskManager;
 public class TaskManager
 {
     private List<Task>? _tasks;
-
+    private CsvHandler csvHandler = new CsvHandler("tasks.csv");
+    private JsonHandler _jsonHandler = new JsonHandler("tasks.json");
     public TaskManager()
     {
         _tasks = [];
@@ -17,6 +18,16 @@ public class TaskManager
     // Add Task
     public void AddTask(Task task)
     {
+        try
+        {
+            _jsonHandler.WriteToJson(task);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+        
         _tasks?.Add(task);
     }
     
@@ -38,20 +49,24 @@ public class TaskManager
         _tasks?.RemoveAll(task => task.Id == id);
     }
     // Display All Tasks
-    public void DisplayAll()
+    public async void DisplayAll()
     {
-        if (_tasks == null || !_tasks.Any())
+        Console.WriteLine("Displaying all tasks");
+        try
         {
-            Console.WriteLine("No tasks available.");
-            return;
+            var tasks = _jsonHandler.ReadFromJson();
+            if (tasks == null) return;
+            foreach (var task in tasks)
+            {
+                Console.WriteLine(task);
+            }
         }
-
-        Console.WriteLine("Tasks:");
-        foreach (var task in _tasks)
+        catch (Exception e)
         {
-            Console.WriteLine(task.ToString());
-            Console.WriteLine("......................");
+            Console.WriteLine(e);
+            throw;
         }
+        
     }
 
     

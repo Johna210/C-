@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VX30OO3YWNK+L17UWzf+/A+Md+Xs3quQzwj8fuEt7c+bLwgESFnCprDB7M4p49rcmbkAUlWVxwlr0Z2aP+/IJw==",
+  "dgSpecHash": "8kJOODdAFSSaAXlCKv2mSmlYxvOYQQFMoAU2CPQMUgE2oaV9tKA99LlhyipyfhnN1JlJ09yYl5YfMK+6gdbPuA==",
   "success": true,
   "projectFilePath": "/home/johna/Desktop/stuff/C#/TaskManager/TaskManager/TaskManager.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/johna/.nuget/packages/csvhelper/33.0.1/csvhelper.33.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -13,3 +13,6 @@
 /home/johna/Desktop/stuff/C#/TaskManager/TaskManager/obj/Debug/net8.0/TaskManager.pdb
 /home/johna/Desktop/stuff/C#/TaskManager/TaskManager/obj/Debug/net8.0/TaskManager.genruntimeconfig.cache
 /home/johna/Desktop/stuff/C#/TaskManager/TaskManager/obj/Debug/net8.0/ref/TaskManager.dll
+/home/johna/Desktop/stuff/C#/TaskManager/TaskManager/bin/Debug/net8.0/CsvHelper.dll
+/home/johna/Desktop/stuff/C#/TaskManager/TaskManager/obj/Debug/net8.0/TaskManager.csproj.AssemblyReference.cache
+/home/johna/Desktop/stuff/C#/TaskManager/TaskManager/obj/Debug/net8.0/TaskManager.csproj.CopyComplete

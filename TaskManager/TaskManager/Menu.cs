@@ -99,10 +99,15 @@ public class Menu
             "P" => Categories.Personal,
             _ => Categories.Errands
         };
-
-        editedTask.Description = newDescription;
+        if (!string.IsNullOrEmpty(newDescription))
+        {
+            editedTask.Description = newDescription;
+        }
         editedTask.IsCompleted = newStatus;
-        editedTask.Name = newName;
+        if (!string.IsNullOrEmpty(newName))
+        {
+            editedTask.Name = newName;
+        }
         
         TaskManager.UpdateTask(uuid, editedTask);
     }
