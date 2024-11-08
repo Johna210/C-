@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="src\API\" />
+      <Folder Include="src\Core\" />
+      <Folder Include="src\Infrastructure\" />
+      <Folder Include="src\UI\" />
+      <Folder Include="test\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="src\Core\HR.LeaveManagement.Domain\obj\HR.LeaveManagement.Domain.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="src\Core\HR.LeaveManagement.Domain\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="src\Core\HR.LeaveManagement.Domain\obj\project.packagespec.json" />
+    </ItemGroup>
+
+</Project>
