@@ -24,3 +24,7 @@
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/obj/Debug/net8.0/HR.LeaveManagement.pdb
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/obj/Debug/net8.0/HR.LeaveManagement.genruntimeconfig.cache
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/obj/Debug/net8.0/ref/HR.LeaveManagement.dll
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/AutoMapper.dll
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/obj/Debug/net8.0/HR.LeaveManagement.csproj.AssemblyReference.cache
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/obj/Debug/net8.0/HR.LeaveManagement.csproj.CopyComplete
