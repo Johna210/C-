@@ -9,6 +9,10 @@
     <ItemGroup>
       <Folder Include="src\API\" />
       <Folder Include="src\Core\" />
+      <Folder Include="src\Core\HR.LeaveManagement.Application\Features\LeaveAllocations\" />
+      <Folder Include="src\Core\HR.LeaveManagement.Application\Features\LeaveRequests\" />
+      <Folder Include="src\Core\HR.LeaveManagement.Application\Features\LeaveTypes\Handlers\Commands\" />
+      <Folder Include="src\Core\HR.LeaveManagement.Application\Features\LeaveTypes\Requests\Commands\" />
       <Folder Include="src\Infrastructure\" />
       <Folder Include="src\UI\" />
       <Folder Include="test\" />
@@ -22,6 +26,7 @@
 
     <ItemGroup>
       <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+      <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
     </ItemGroup>
 
 </Project>
