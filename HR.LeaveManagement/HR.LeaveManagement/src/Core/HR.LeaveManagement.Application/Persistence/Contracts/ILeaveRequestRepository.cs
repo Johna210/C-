@@ -4,5 +4,6 @@ namespace HR.LeaveManagement.Core.HR.LeaveManagement.Application.Persistence.Con
 
 public interface ILeaveRequestRepository: IGenericRepository<LeaveRequest>
 {
-       
+    Task<LeaveRequest> GetLeaveRequestWithDetails(int id);
+    Task<List<LeaveRequest>> GetLeaveRequestsWithDetails();   
 }

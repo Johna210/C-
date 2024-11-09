@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HR.LeaveManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85ecea316ccc7bd3b7dcd4e403db06d233b8576b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da8f6d688110ed8f8ebd1ec45df602c01804370f")]
 [assembly: System.Reflection.AssemblyProductAttribute("HR.LeaveManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HR.LeaveManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

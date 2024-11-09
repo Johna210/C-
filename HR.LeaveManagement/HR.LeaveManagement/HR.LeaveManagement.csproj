@@ -9,8 +9,10 @@
     <ItemGroup>
       <Folder Include="src\API\" />
       <Folder Include="src\Core\" />
-      <Folder Include="src\Core\HR.LeaveManagement.Application\Features\LeaveAllocations\" />
-      <Folder Include="src\Core\HR.LeaveManagement.Application\Features\LeaveRequests\" />
+      <Folder Include="src\Core\HR.LeaveManagement.Application\Features\LeaveAllocations\Handlers\Commands\" />
+      <Folder Include="src\Core\HR.LeaveManagement.Application\Features\LeaveAllocations\Requests\Commands\" />
+      <Folder Include="src\Core\HR.LeaveManagement.Application\Features\LeaveRequests\Handlers\Commands\" />
+      <Folder Include="src\Core\HR.LeaveManagement.Application\Features\LeaveRequests\Requests\Commands\" />
       <Folder Include="src\Core\HR.LeaveManagement.Application\Features\LeaveTypes\Handlers\Commands\" />
       <Folder Include="src\Core\HR.LeaveManagement.Application\Features\LeaveTypes\Requests\Commands\" />
       <Folder Include="src\Infrastructure\" />
