@@ -9,12 +9,6 @@
     <ItemGroup>
       <Folder Include="src\API\" />
       <Folder Include="src\Core\" />
-      <Folder Include="src\Core\HR.LeaveManagement.Application\Features\LeaveAllocations\Handlers\Commands\" />
-      <Folder Include="src\Core\HR.LeaveManagement.Application\Features\LeaveAllocations\Requests\Commands\" />
-      <Folder Include="src\Core\HR.LeaveManagement.Application\Features\LeaveRequests\Handlers\Commands\" />
-      <Folder Include="src\Core\HR.LeaveManagement.Application\Features\LeaveRequests\Requests\Commands\" />
-      <Folder Include="src\Core\HR.LeaveManagement.Application\Features\LeaveTypes\Handlers\Commands\" />
-      <Folder Include="src\Core\HR.LeaveManagement.Application\Features\LeaveTypes\Requests\Commands\" />
       <Folder Include="src\Infrastructure\" />
       <Folder Include="src\UI\" />
       <Folder Include="test\" />
@@ -24,11 +18,33 @@
       <_ContentIncludedByDefault Remove="src\Core\HR.LeaveManagement.Domain\obj\HR.LeaveManagement.Domain.csproj.nuget.dgspec.json" />
       <_ContentIncludedByDefault Remove="src\Core\HR.LeaveManagement.Domain\obj\project.assets.json" />
       <_ContentIncludedByDefault Remove="src\Core\HR.LeaveManagement.Domain\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="src\Core\HR.LeaveManagement.Application\obj\HR.LeaveManagement.Application.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="src\Core\HR.LeaveManagement.Application\obj\project.assets.json" />
     </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
       <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="src\Core\HR.LeaveManagement.Domain\obj\**" />
+      <Compile Remove="src\Core\HR.LeaveManagement.Application\obj\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="src\Core\HR.LeaveManagement.Domain\obj\**" />
+      <EmbeddedResource Remove="src\Core\HR.LeaveManagement.Application\obj\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="src\Core\HR.LeaveManagement.Domain\obj\**" />
+      <Content Remove="src\Core\HR.LeaveManagement.Application\obj\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="src\Core\HR.LeaveManagement.Domain\obj\**" />
+      <None Remove="src\Core\HR.LeaveManagement.Application\obj\**" />
     </ItemGroup>
 
 </Project>
