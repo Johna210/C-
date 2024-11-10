@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "bvXhmr8iWfM=",
+  "dgSpecHash": "hbFOM6E0x7g=",
   "success": true,
   "projectFilePath": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/HR.LeaveManagement.csproj",
   "expectedPackageFiles": [
     "/home/johna/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/johna/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/home/johna/.nuget/packages/fluentvalidation/11.10.0/fluentvalidation.11.10.0.nupkg.sha512",
+    "/home/johna/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.10.0/fluentvalidation.dependencyinjectionextensions.11.10.0.nupkg.sha512",
     "/home/johna/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
     "/home/johna/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
     "/home/johna/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",

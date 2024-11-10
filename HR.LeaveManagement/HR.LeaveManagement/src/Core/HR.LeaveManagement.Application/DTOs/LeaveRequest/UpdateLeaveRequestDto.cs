@@ -2,7 +2,7 @@ using HR.LeaveManagement.Core.HR.LeaveManagement.Application.DTOs.Common;
 
 namespace HR.LeaveManagement.Core.HR.LeaveManagement.Application.DTOs.LeaveRequest;
 
-public class UpdateLeaveRequestDto : BaseDto
+public class UpdateLeaveRequestDto : BaseDto, ILeaveRequestDto
 {
     public DateTime StartDate { get; set; }
     public DateTime EndDate { get; set; }
