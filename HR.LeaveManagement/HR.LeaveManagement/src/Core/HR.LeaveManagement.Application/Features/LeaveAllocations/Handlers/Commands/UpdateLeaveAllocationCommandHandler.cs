@@ -1,4 +1,6 @@
 using AutoMapper;
+using HR.LeaveManagement.Core.HR.LeaveManagement.Application.DTOs.LeaveAllocation.Validators;
+using HR.LeaveManagement.Core.HR.LeaveManagement.Application.Exceptions;
 using HR.LeaveManagement.Core.HR.LeaveManagement.Application.Features.LeaveAllocations.Requests.Commands;
 using HR.LeaveManagement.Core.HR.LeaveManagement.Application.Persistence.Contracts;
 using MediatR;
@@ -8,20 +10,28 @@ namespace HR.LeaveManagement.Core.HR.LeaveManagement.Application.Features.LeaveA
 public class UpdateLeaveAllocationCommandHandler : IRequestHandler<UpdateLeaveAllocationCommand, Unit>
 {
     private readonly ILeaveAllocationRepository _leaveAllocationRepository;
+    private readonly ILeaveTypeRepository _leaveTypeRepository;
     private readonly IMapper _mapper;
     
     
-    public UpdateLeaveAllocationCommandHandler(ILeaveAllocationRepository leaveAllocationRepository, IMapper mapper)
+    public UpdateLeaveAllocationCommandHandler(ILeaveAllocationRepository leaveAllocationRepository, IMapper mapper, ILeaveTypeRepository leaveTypeRepository)
     {
         _leaveAllocationRepository = leaveAllocationRepository;
+        _leaveTypeRepository = leaveTypeRepository;
         _mapper = mapper;
     }
     
-    public async Task<Unit> Handle(UpdateLeaveAllocationCommand request, CancellationToken cancellationToken)
+    public async Task<Unit> Handle(UpdateLeaveAllocationCommand command, CancellationToken cancellationToken)
     {
-        var leaveAllocation = await _leaveAllocationRepository.Get(request.LeaveAllocationDto.Id);
+        var validator = new UpdateLeaveAllocationValidator(_leaveTypeRepository);
+        var validationResult = await validator.ValidateAsync(command.LeaveAllocationDto, cancellationToken);
+
+        if (validationResult.IsValid == false)
+            throw new ValidationException(validationResult);
         
-        _mapper.Map(request.LeaveAllocationDto, leaveAllocation);
+        var leaveAllocation = await _leaveAllocationRepository.Get(command.LeaveAllocationDto.Id);
+        
+        _mapper.Map(command.LeaveAllocationDto, leaveAllocation);
         
         await _leaveAllocationRepository.Update(leaveAllocation);
         

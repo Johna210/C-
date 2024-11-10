@@ -5,8 +5,8 @@ namespace HR.LeaveManagement.Core.HR.LeaveManagement.Application.DTOs.LeaveAlloc
 
 public class CreateLeaveAllocationValidator : AbstractValidator<CreateLeaveAllocationDto>
 {
-    public CreateLeaveAllocationValidator(ILeaveAllocationRepository leaveAllocationRepository)
+    public CreateLeaveAllocationValidator(ILeaveTypeRepository leaveTypeRepository)
     {
-        Include(new ILeaveAllocationDtoValidator(leaveAllocationRepository));   
+        Include(new ILeaveAllocationDtoValidator(leaveTypeRepository));   
     }
 }
