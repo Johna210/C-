@@ -10,14 +10,15 @@ public class GetLeaveRequestListRequestHandler : IRequestHandler<GetLeaveRequest
 {
     private readonly ILeaveRequestRepository _leaveRequestRepository;
     private readonly IMapper _mapper;
-    
+
     public GetLeaveRequestListRequestHandler(ILeaveRequestRepository repository, IMapper mapper)
     {
         _leaveRequestRepository = repository;
         _mapper = mapper;
     }
-    
-    public async Task<List<LeaveRequestListDto>> Handle(GetLeaveRequestListRequest request, CancellationToken cancellationToken)
+
+    public async Task<List<LeaveRequestListDto>> Handle(GetLeaveRequestListRequest request,
+        CancellationToken cancellationToken)
     {
         var leaveRequests = await _leaveRequestRepository.GetLeaveRequestsWithDetails();
         return _mapper.Map<List<LeaveRequestListDto>>(leaveRequests);

@@ -14,13 +14,14 @@ public class CreateLeaveAllocationCommandHandler : IRequestHandler<CreateLeaveAl
     private readonly ILeaveTypeRepository _leaveTypeRepository;
     private readonly IMapper _mapper;
 
-    public CreateLeaveAllocationCommandHandler(ILeaveAllocationRepository leaveAllocationRepository, IMapper mapper, ILeaveTypeRepository leaveTypeRepository)
+    public CreateLeaveAllocationCommandHandler(ILeaveAllocationRepository leaveAllocationRepository, IMapper mapper,
+        ILeaveTypeRepository leaveTypeRepository)
     {
         _leaveAllocationRepository = leaveAllocationRepository;
         _leaveTypeRepository = leaveTypeRepository;
         _mapper = mapper;
     }
-    
+
     public async Task<int> Handle(CreateLeaveAllocationCommand command, CancellationToken cancellationToken)
     {
         var validator = new CreateLeaveAllocationValidator(_leaveTypeRepository);
@@ -28,7 +29,7 @@ public class CreateLeaveAllocationCommandHandler : IRequestHandler<CreateLeaveAl
 
         if (validationResult.IsValid == false)
             throw new ValidationException(validationResult);
-        
+
         var leaveAllocation = _mapper.Map<LeaveAllocation>(command.LeaveAllocation);
         leaveAllocation = await _leaveAllocationRepository.Add(leaveAllocation);
         return leaveAllocation.Id;

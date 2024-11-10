@@ -4,5 +4,5 @@ namespace HR.LeaveManagement.Core.HR.LeaveManagement.Application.Features.LeaveR
 
 public class DeleteLeaveRequestCommand : IRequest
 {
-    public int Id { get; set; }   
+    public int Id { get; set; }
 }

@@ -12,15 +12,16 @@ public class UpdateLeaveAllocationCommandHandler : IRequestHandler<UpdateLeaveAl
     private readonly ILeaveAllocationRepository _leaveAllocationRepository;
     private readonly ILeaveTypeRepository _leaveTypeRepository;
     private readonly IMapper _mapper;
-    
-    
-    public UpdateLeaveAllocationCommandHandler(ILeaveAllocationRepository leaveAllocationRepository, IMapper mapper, ILeaveTypeRepository leaveTypeRepository)
+
+
+    public UpdateLeaveAllocationCommandHandler(ILeaveAllocationRepository leaveAllocationRepository, IMapper mapper,
+        ILeaveTypeRepository leaveTypeRepository)
     {
         _leaveAllocationRepository = leaveAllocationRepository;
         _leaveTypeRepository = leaveTypeRepository;
         _mapper = mapper;
     }
-    
+
     public async Task<Unit> Handle(UpdateLeaveAllocationCommand command, CancellationToken cancellationToken)
     {
         var validator = new UpdateLeaveAllocationValidator(_leaveTypeRepository);
@@ -28,13 +29,13 @@ public class UpdateLeaveAllocationCommandHandler : IRequestHandler<UpdateLeaveAl
 
         if (validationResult.IsValid == false)
             throw new ValidationException(validationResult);
-        
+
         var leaveAllocation = await _leaveAllocationRepository.Get(command.LeaveAllocationDto.Id);
-        
+
         _mapper.Map(command.LeaveAllocationDto, leaveAllocation);
-        
+
         await _leaveAllocationRepository.Update(leaveAllocation);
-        
+
         return Unit.Value;
     }
 }

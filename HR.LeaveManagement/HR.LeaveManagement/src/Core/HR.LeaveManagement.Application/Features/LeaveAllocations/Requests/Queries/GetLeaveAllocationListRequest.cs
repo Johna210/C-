@@ -6,5 +6,4 @@ namespace HR.LeaveManagement.Core.HR.LeaveManagement.Application.Features.LeaveA
 
 public class GetLeaveAllocationListRequest : IRequest<List<LeaveAllocationDto>>
 {
-    
 }

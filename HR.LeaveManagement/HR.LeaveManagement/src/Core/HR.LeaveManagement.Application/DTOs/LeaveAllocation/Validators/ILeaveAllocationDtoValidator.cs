@@ -12,7 +12,7 @@ public class ILeaveAllocationDtoValidator : AbstractValidator<ILeaveAllocationDt
 
         RuleFor(p => p.Period)
             .GreaterThanOrEqualTo(DateTime.Now.Year).WithMessage("{PropertyName} must be after {ComparisonValue}");
-        
+
         RuleFor(p => p.LeaveTypeId)
             .GreaterThan(0)
             .MustAsync(async (id, token) =>
@@ -20,5 +20,5 @@ public class ILeaveAllocationDtoValidator : AbstractValidator<ILeaveAllocationDt
                 var leaveTypeExists = await leaveTypeRepository.Exists(id);
                 return !leaveTypeExists;
             }).WithMessage("{PropertyName} does not exist");
-    }   
+    }
 }

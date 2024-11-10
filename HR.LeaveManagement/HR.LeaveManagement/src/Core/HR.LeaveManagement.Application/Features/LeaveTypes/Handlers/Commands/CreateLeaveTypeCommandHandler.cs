@@ -18,7 +18,7 @@ public class CreateLeaveTypeCommandHandler : IRequestHandler<CreateLeaveTypeComm
         _leaveTypeRepository = leaveTypeRepository;
         _mapper = mapper;
     }
-    
+
     public async Task<int> Handle(CreateLeaveTypeCommand command, CancellationToken cancellationToken)
     {
         var validator = new CreateLeaveTypeValidator();
@@ -26,7 +26,7 @@ public class CreateLeaveTypeCommandHandler : IRequestHandler<CreateLeaveTypeComm
 
         if (validationResult.IsValid == false)
             throw new ValidationException(validationResult);
-        
+
         var leaveType = _mapper.Map<LeaveType>(command.LeaveTypeDto);
         leaveType = await _leaveTypeRepository.Add(leaveType);
         return leaveType.Id;

@@ -8,7 +8,7 @@ public class UpdateLeaveAllocationValidator : AbstractValidator<UpdateLeaveAlloc
     public UpdateLeaveAllocationValidator(ILeaveTypeRepository leaveTypeRepository)
     {
         Include(new ILeaveAllocationDtoValidator(leaveTypeRepository));
-        
+
         RuleFor(p => p.Id).NotNull().WithMessage("{PropertyName} is required.}");
     }
 }

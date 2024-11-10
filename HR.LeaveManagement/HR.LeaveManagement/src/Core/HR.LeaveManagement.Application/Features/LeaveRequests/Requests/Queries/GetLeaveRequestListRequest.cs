@@ -5,5 +5,4 @@ namespace HR.LeaveManagement.Core.HR.LeaveManagement.Application.Features.LeaveR
 
 public class GetLeaveRequestListRequest : IRequest<List<LeaveRequestListDto>>
 {
-       
 }

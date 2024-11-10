@@ -12,13 +12,13 @@ public class UpdateLeaveTypeCommandHandler : IRequestHandler<UpdateLeaveTypeComm
 {
     private readonly ILeaveTypeRepository _leaveTypeRepository;
     private readonly IMapper _mapper;
-    
+
     public UpdateLeaveTypeCommandHandler(ILeaveTypeRepository leaveTypeRepository, IMapper mapper)
     {
         _leaveTypeRepository = leaveTypeRepository;
         _mapper = mapper;
     }
-    
+
     public async Task<Unit> Handle(UpdateLeaveTypeCommand request, CancellationToken cancellationToken)
     {
         var validator = new UpdateLeaveTypeValidator();
@@ -26,13 +26,13 @@ public class UpdateLeaveTypeCommandHandler : IRequestHandler<UpdateLeaveTypeComm
 
         if (validationResult.IsValid == false)
             throw new ValidationException(validationResult);
-        
+
         var leaveType = await _leaveTypeRepository.Get(request.LeaveTypeDto.Id);
-        
+
         _mapper.Map(request.LeaveTypeDto, leaveType);
-        
+
         await _leaveTypeRepository.Update(leaveType);
-        
+
         return Unit.Value;
     }
 }

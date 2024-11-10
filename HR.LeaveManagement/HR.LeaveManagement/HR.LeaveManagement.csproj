@@ -20,32 +20,66 @@
       <_ContentIncludedByDefault Remove="src\Core\HR.LeaveManagement.Domain\obj\project.packagespec.json" />
       <_ContentIncludedByDefault Remove="src\Core\HR.LeaveManagement.Application\obj\HR.LeaveManagement.Application.csproj.nuget.dgspec.json" />
       <_ContentIncludedByDefault Remove="src\Core\HR.LeaveManagement.Application\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="src\Infrastructure\HR.LeaveManagement.Infrastructure\obj\HR.LeaveManagement.Infrastructure.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="src\Infrastructure\HR.LeaveManagement.Infrastructure\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="src\Infrastructure\HR.LeaveManagement.Infrastructure\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="src\Infrastructure\HR.LeaveManagement.Persistence\obj\HR.LeaveManagement.Persistence.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="src\Infrastructure\HR.LeaveManagement.Persistence\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="src\Infrastructure\HR.LeaveManagement.Persistence\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="src\UI\App1\nuget.config" />
+      <_ContentIncludedByDefault Remove="src\UI\App1\global.json" />
+      <_ContentIncludedByDefault Remove="src\UI\App1\src\App1.Core\obj\App1.Core.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="src\UI\App1\src\App1.Core\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="src\UI\App1\src\App1.Core\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="src\UI\App1\src\App1.Infrastructure\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="src\UI\App1\src\App1.UseCases\obj\App1.UseCases.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="src\UI\App1\src\App1.UseCases\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="src\UI\App1\src\App1.UseCases\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="src\UI\App1\src\App1.Web\appsettings.json" />
+      <_ContentIncludedByDefault Remove="src\UI\App1\src\App1.Web\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="src\UI\App1\src\App1.Web\Properties\launchSettings.json" />
+      <_ContentIncludedByDefault Remove="src\UI\App1\tests\App1.FunctionalTests\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="src\UI\App1\tests\App1.FunctionalTests\xunit.runner.json" />
+      <_ContentIncludedByDefault Remove="src\UI\App1\tests\App1.IntegrationTests\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="src\UI\App1\tests\App1.UnitTests\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="src\UI\App1\tests\App1.UnitTests\xunit.runner.json" />
     </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
       <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.10.0" />
       <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
+      <PackageReference Include="SendGrid" Version="9.29.3" />
     </ItemGroup>
 
     <ItemGroup>
       <Compile Remove="src\Core\HR.LeaveManagement.Domain\obj\**" />
       <Compile Remove="src\Core\HR.LeaveManagement.Application\obj\**" />
+      <Compile Remove="src\Infrastructure\HR.LeaveManagement.Infrastructure\obj\**" />
+      <Compile Remove="src\Infrastructure\HR.LeaveManagement.Persistence\obj\**" />
     </ItemGroup>
 
     <ItemGroup>
       <EmbeddedResource Remove="src\Core\HR.LeaveManagement.Domain\obj\**" />
       <EmbeddedResource Remove="src\Core\HR.LeaveManagement.Application\obj\**" />
+      <EmbeddedResource Remove="src\Infrastructure\HR.LeaveManagement.Infrastructure\obj\**" />
+      <EmbeddedResource Remove="src\Infrastructure\HR.LeaveManagement.Persistence\obj\**" />
     </ItemGroup>
 
     <ItemGroup>
       <Content Remove="src\Core\HR.LeaveManagement.Domain\obj\**" />
       <Content Remove="src\Core\HR.LeaveManagement.Application\obj\**" />
+      <Content Remove="src\Infrastructure\HR.LeaveManagement.Infrastructure\obj\**" />
+      <Content Remove="src\Infrastructure\HR.LeaveManagement.Persistence\obj\**" />
     </ItemGroup>
 
     <ItemGroup>
       <None Remove="src\Core\HR.LeaveManagement.Domain\obj\**" />
       <None Remove="src\Core\HR.LeaveManagement.Application\obj\**" />
+      <None Remove="src\Infrastructure\HR.LeaveManagement.Infrastructure\obj\**" />
+      <None Remove="src\Infrastructure\HR.LeaveManagement.Persistence\obj\**" />
     </ItemGroup>
 
 </Project>

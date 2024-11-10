@@ -9,28 +9,29 @@ public class UpdateLeaveRequestCommandHandler : IRequestHandler<UpdateLeaveReque
 {
     private readonly ILeaveRequestRepository _leaveRequestRepository;
     private readonly IMapper _mapper;
-    
+
     public UpdateLeaveRequestCommandHandler(ILeaveRequestRepository leaveRequestRepository, IMapper mapper)
     {
         _leaveRequestRepository = leaveRequestRepository;
         _mapper = mapper;
     }
-    
+
     public async Task<Unit> Handle(UpdateLeaveRequestCommand request, CancellationToken cancellationToken)
     {
         var leaveRequest = await _leaveRequestRepository.Get(request.Id);
-        
+
         if (request.LeaveRequestDto != null)
         {
             _mapper.Map(request.LeaveRequestDto, leaveRequest);
-        
-            await _leaveRequestRepository.Update(leaveRequest);    
+
+            await _leaveRequestRepository.Update(leaveRequest);
         }
-        else if(request.ChangeLeaveRequestApprovalDto != null)
+        else if (request.ChangeLeaveRequestApprovalDto != null)
         {
-            await _leaveRequestRepository.ChangeApprovalStatus(leaveRequest, request.ChangeLeaveRequestApprovalDto.Approved);
+            await _leaveRequestRepository.ChangeApprovalStatus(leaveRequest,
+                request.ChangeLeaveRequestApprovalDto.Approved);
         }
-        
+
         return Unit.Value;
     }
 }

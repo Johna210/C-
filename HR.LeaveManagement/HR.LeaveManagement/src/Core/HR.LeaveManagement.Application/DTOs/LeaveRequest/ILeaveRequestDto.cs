@@ -2,7 +2,7 @@ namespace HR.LeaveManagement.Core.HR.LeaveManagement.Application.DTOs.LeaveReque
 
 public interface ILeaveRequestDto
 {
-    public  DateTime StartDate { get; set; }
+    public DateTime StartDate { get; set; }
     public DateTime EndDate { get; set; }
     public int LeaveTypeId { get; set; }
 }

@@ -7,6 +7,6 @@ public class CreateLeaveAllocationValidator : AbstractValidator<CreateLeaveAlloc
 {
     public CreateLeaveAllocationValidator(ILeaveTypeRepository leaveTypeRepository)
     {
-        Include(new ILeaveAllocationDtoValidator(leaveTypeRepository));   
+        Include(new ILeaveAllocationDtoValidator(leaveTypeRepository));
     }
 }
