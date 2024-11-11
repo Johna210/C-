@@ -4,14 +4,15 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
+
 namespace HR.LeaveManagement.Persistence;
 
 public static class PersistenceServiceRegistration
 {
-    public static IServiceCollection ConfigurationPersistenceServices(this IServiceCollection services, IConfiguration configuration)
+    public static IServiceCollection ConfigurePersistenceServices(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddDbContext<LeaveManagementDbContext>(options =>
-            options.UseSqlServer(
+            options.UseNpgsql(
                 configuration.GetConnectionString("LeaveManagementConnectionString")));
         
         services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
@@ -22,3 +23,5 @@ public static class PersistenceServiceRegistration
         return services;
     }
 }
+
+// Design time factory

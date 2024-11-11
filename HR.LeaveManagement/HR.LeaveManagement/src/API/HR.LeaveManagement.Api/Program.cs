@@ -1,7 +1,42 @@
-namespace HR.LeaveManagement.API;
+using HR.LeaveManagement.Core.HR.LeaveManagement.Application;
+using HR.LeaveManagement.Infrastructure;
+using HR.LeaveManagement.Persistence;
 
-public class Program
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+builder.Services.ConfigureApplicationServices();
+builder.Services.ConfigureInfrastructureServices(builder.Configuration);
+builder.Services.ConfigurePersistenceServices(builder.Configuration);
+
+builder.Services.AddControllers();
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+builder.Services.AddCors(o =>
 {
-    public static void Main(string[] args)
-    {}
+    o.AddPolicy("CorsPolicy", 
+        corsPolicyBuilder => corsPolicyBuilder.AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader());
+});
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
+
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.UseCors("CorsPolicy");
+
+app.MapControllers();
+
+app.Run();

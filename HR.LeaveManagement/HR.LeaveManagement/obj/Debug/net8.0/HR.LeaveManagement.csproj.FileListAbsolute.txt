@@ -35,7 +35,6 @@
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/src/Core/HR.LeaveManagement.Application/bin/Debug/net8.0/HR.LeaveManagement.Application.deps.json
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/src/Core/HR.LeaveManagement.Domain/bin/Debug/net8.0/HR.LeaveManagement.Domain.deps.json
-/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/src/Infrastructure/HR.LeaveManagement.Persistence/bin/Debug/net8.0/HR.LeaveManagement.Persistence.deps.json
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/Azure.Core.dll
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/Azure.Identity.dll
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
@@ -96,3 +95,6 @@
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/obj/Debug/net8.0/HR.LeaveManagement.MvcApplicationPartsAssemblyInfo.cs
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/src/Infrastructure/HR.LeaveManagement.Persistence/bin/Debug/net8.0/HR.LeaveManagement.Persistence.deps.json
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/Npgsql.dll
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
