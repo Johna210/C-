@@ -90,3 +90,9 @@
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/src/API/HR.LeaveManagement.Api/bin/Debug/net8.0/appsettings.json
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/src/API/HR.LeaveManagement.Api/bin/Debug/net8.0/HR.LeaveManagement.Api.deps.json
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/src/API/HR.LeaveManagement.Api/bin/Debug/net8.0/HR.LeaveManagement.Api.runtimeconfig.json
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/src/Infrastructure/HR.LeaveManagement.Infrastructure/bin/Debug/net8.0/HR.LeaveManagement.Infrastructure.deps.json
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/obj/Debug/net8.0/HR.LeaveManagement.MvcApplicationPartsAssemblyInfo.cs
