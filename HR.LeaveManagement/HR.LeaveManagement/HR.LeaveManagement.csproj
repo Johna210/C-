@@ -43,6 +43,10 @@
       <_ContentIncludedByDefault Remove="src\UI\App1\tests\App1.IntegrationTests\obj\project.packagespec.json" />
       <_ContentIncludedByDefault Remove="src\UI\App1\tests\App1.UnitTests\obj\project.packagespec.json" />
       <_ContentIncludedByDefault Remove="src\UI\App1\tests\App1.UnitTests\xunit.runner.json" />
+      <_ContentIncludedByDefault Remove="src\API\HR.LeaveManagement.Api\obj\HR.LeaveManagement.Api.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="src\API\HR.LeaveManagement.Api\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="src\API\HR.LeaveManagement.Api\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="src\Infrastructure\HR.LeaveManagement.Infrastructure\bin\Debug\net8.0\HR.LeaveManagement.Infrastructure.deps.json" />
     </ItemGroup>
 
     <ItemGroup>
@@ -59,6 +63,7 @@
       <Compile Remove="src\Core\HR.LeaveManagement.Application\obj\**" />
       <Compile Remove="src\Infrastructure\HR.LeaveManagement.Infrastructure\obj\**" />
       <Compile Remove="src\Infrastructure\HR.LeaveManagement.Persistence\obj\**" />
+      <Compile Remove="src\API\HR.LeaveManagement.Api\obj\**" />
     </ItemGroup>
 
     <ItemGroup>
@@ -66,6 +71,7 @@
       <EmbeddedResource Remove="src\Core\HR.LeaveManagement.Application\obj\**" />
       <EmbeddedResource Remove="src\Infrastructure\HR.LeaveManagement.Infrastructure\obj\**" />
       <EmbeddedResource Remove="src\Infrastructure\HR.LeaveManagement.Persistence\obj\**" />
+      <EmbeddedResource Remove="src\API\HR.LeaveManagement.Api\obj\**" />
     </ItemGroup>
 
     <ItemGroup>
@@ -73,6 +79,7 @@
       <Content Remove="src\Core\HR.LeaveManagement.Application\obj\**" />
       <Content Remove="src\Infrastructure\HR.LeaveManagement.Infrastructure\obj\**" />
       <Content Remove="src\Infrastructure\HR.LeaveManagement.Persistence\obj\**" />
+      <Content Remove="src\API\HR.LeaveManagement.Api\obj\**" />
     </ItemGroup>
 
     <ItemGroup>
@@ -80,6 +87,7 @@
       <None Remove="src\Core\HR.LeaveManagement.Application\obj\**" />
       <None Remove="src\Infrastructure\HR.LeaveManagement.Infrastructure\obj\**" />
       <None Remove="src\Infrastructure\HR.LeaveManagement.Persistence\obj\**" />
+      <None Remove="src\API\HR.LeaveManagement.Api\obj\**" />
     </ItemGroup>
 
 </Project>

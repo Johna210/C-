@@ -1,6 +1,7 @@
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+namespace HR.LeaveManagement;
 
-app.MapGet("/", () => "Hello World!");
-
-app.Run();
+public class Program
+{
+    // public static void Main(string[] args)
+    // {}
+}

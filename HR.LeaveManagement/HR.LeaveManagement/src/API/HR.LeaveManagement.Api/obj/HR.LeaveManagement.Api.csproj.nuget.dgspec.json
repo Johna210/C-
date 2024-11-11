@@ -1,0 +1,370 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/API/HR.LeaveManagement.Api/HR.LeaveManagement.Api.csproj": {}
+  },
+  "projects": {
+    "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/API/HR.LeaveManagement.Api/HR.LeaveManagement.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/API/HR.LeaveManagement.Api/HR.LeaveManagement.Api.csproj",
+        "projectName": "HR.LeaveManagement.Api",
+        "projectPath": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/API/HR.LeaveManagement.Api/HR.LeaveManagement.Api.csproj",
+        "packagesPath": "/home/johna/.nuget/packages/",
+        "outputPath": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/API/HR.LeaveManagement.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/johna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj": {
+                "projectPath": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj"
+              },
+              "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Infrastructure/HR.LeaveManagement.Infrastructure/HR.LeaveManagement.Infrastructure.csproj": {
+                "projectPath": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Infrastructure/HR.LeaveManagement.Infrastructure/HR.LeaveManagement.Infrastructure.csproj"
+              },
+              "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Infrastructure/HR.LeaveManagement.Persistence/HR.LeaveManagement.Persistence.csproj": {
+                "projectPath": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Infrastructure/HR.LeaveManagement.Persistence/HR.LeaveManagement.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24473.5, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24473.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj",
+        "projectName": "HR.LeaveManagement.Application",
+        "projectPath": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj",
+        "packagesPath": "/home/johna/.nuget/packages/",
+        "outputPath": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/johna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Domain/HR.LeaveManagement.Domain.csproj": {
+                "projectPath": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Domain/HR.LeaveManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Domain/HR.LeaveManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Domain/HR.LeaveManagement.Domain.csproj",
+        "projectName": "HR.LeaveManagement.Domain",
+        "projectPath": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Domain/HR.LeaveManagement.Domain.csproj",
+        "packagesPath": "/home/johna/.nuget/packages/",
+        "outputPath": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/johna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Infrastructure/HR.LeaveManagement.Infrastructure/HR.LeaveManagement.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Infrastructure/HR.LeaveManagement.Infrastructure/HR.LeaveManagement.Infrastructure.csproj",
+        "projectName": "HR.LeaveManagement.Infrastructure",
+        "projectPath": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Infrastructure/HR.LeaveManagement.Infrastructure/HR.LeaveManagement.Infrastructure.csproj",
+        "packagesPath": "/home/johna/.nuget/packages/",
+        "outputPath": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Infrastructure/HR.LeaveManagement.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/johna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj": {
+                "projectPath": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24473.5, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24473.5, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.29.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Infrastructure/HR.LeaveManagement.Persistence/HR.LeaveManagement.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Infrastructure/HR.LeaveManagement.Persistence/HR.LeaveManagement.Persistence.csproj",
+        "projectName": "HR.LeaveManagement.Persistence",
+        "projectPath": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Infrastructure/HR.LeaveManagement.Persistence/HR.LeaveManagement.Persistence.csproj",
+        "packagesPath": "/home/johna/.nuget/packages/",
+        "outputPath": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Infrastructure/HR.LeaveManagement.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/johna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj": {
+                "projectPath": "/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24474.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24474.1, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24473.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -35,7 +35,6 @@
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/src/Core/HR.LeaveManagement.Application/bin/Debug/net8.0/HR.LeaveManagement.Application.deps.json
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/src/Core/HR.LeaveManagement.Domain/bin/Debug/net8.0/HR.LeaveManagement.Domain.deps.json
-/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/src/Infrastructure/HR.LeaveManagement.Infrastructure/bin/Debug/net8.0/HR.LeaveManagement.Infrastructure.deps.json
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/src/Infrastructure/HR.LeaveManagement.Persistence/bin/Debug/net8.0/HR.LeaveManagement.Persistence.deps.json
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/Azure.Core.dll
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/Azure.Identity.dll
@@ -84,3 +83,10 @@
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/Newtonsoft.Json.dll
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/SendGrid.dll
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/StarkbankEcdsa.dll
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/src/API/HR.LeaveManagement.Api/appsettings.Development.json
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/src/API/HR.LeaveManagement.Api/appsettings.json
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/src/API/HR.LeaveManagement.Api/Properties/launchSettings.json
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/src/API/HR.LeaveManagement.Api/bin/Debug/net8.0/appsettings.Development.json
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/src/API/HR.LeaveManagement.Api/bin/Debug/net8.0/appsettings.json
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/src/API/HR.LeaveManagement.Api/bin/Debug/net8.0/HR.LeaveManagement.Api.deps.json
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/bin/Debug/net8.0/src/API/HR.LeaveManagement.Api/bin/Debug/net8.0/HR.LeaveManagement.Api.runtimeconfig.json
