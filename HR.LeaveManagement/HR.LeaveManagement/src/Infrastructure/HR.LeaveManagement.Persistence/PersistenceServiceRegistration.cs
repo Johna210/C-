@@ -19,9 +19,8 @@ public static class PersistenceServiceRegistration
         services.AddScoped<ILeaveTypeRepository, LeaveTypeRepository>();
         services.AddScoped<ILeaveRequestRepository, LeaveRequestRepository>();
         services.AddScoped<ILeaveAllocationRepository, LeaveAllocationRepository>();
-
+        
         return services;
     }
 }
 
-// Design time factory

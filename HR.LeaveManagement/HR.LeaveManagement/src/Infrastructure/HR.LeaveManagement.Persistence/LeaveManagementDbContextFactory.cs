@@ -15,7 +15,7 @@ public class LeaveManagementDbContextFactory : IDesignTimeDbContextFactory<Leave
 
         var optionsBuilder = new DbContextOptionsBuilder<LeaveManagementDbContext>();
         var connectionString = configuration.GetConnectionString("LeaveManagementConnectionString");
-
+    
         optionsBuilder.UseNpgsql(connectionString);
 
         return new LeaveManagementDbContext(optionsBuilder.Options);

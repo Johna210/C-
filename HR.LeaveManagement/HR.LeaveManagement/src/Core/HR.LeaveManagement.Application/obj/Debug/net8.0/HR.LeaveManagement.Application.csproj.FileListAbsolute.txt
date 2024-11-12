@@ -1,6 +1,8 @@
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/bin/Debug/net8.0/HR.LeaveManagement.Application.deps.json
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/bin/Debug/net8.0/HR.LeaveManagement.Application.dll
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/bin/Debug/net8.0/HR.LeaveManagement.Application.pdb
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/bin/Debug/net8.0/HR.LeaveManagement.Domain.dll
+/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/bin/Debug/net8.0/HR.LeaveManagement.Domain.pdb
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net8.0/HR.LeaveManagement.Application.csproj.AssemblyReference.cache
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net8.0/HR.LeaveManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net8.0/HR.LeaveManagement.Application.AssemblyInfoInputs.cache
@@ -12,5 +14,3 @@
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net8.0/refint/HR.LeaveManagement.Application.dll
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net8.0/HR.LeaveManagement.Application.pdb
 /home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net8.0/ref/HR.LeaveManagement.Application.dll
-/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/bin/Debug/net8.0/HR.LeaveManagement.Domain.dll
-/home/johna/Desktop/stuff/C#/HR.LeaveManagement/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/bin/Debug/net8.0/HR.LeaveManagement.Domain.pdb
